@@ -1,10 +1,12 @@
-.page-register, .page-login {
+.page-register,
+.page-login {
   display: flex;
   flex-flow: column;
-  padding: 0 2rem;
+  padding: 2rem;
 }
 
-.page-register h1, .page-login h1 {
+.page-register h1,
+.page-login h1 {
   margin-bottom: 2rem;
 }
 
