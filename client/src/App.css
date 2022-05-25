@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@100;400&display=swap');
+
+/* Colors*/
+:root {
+  --intensity-1: black;
+  --intensity-2: rgb(20,33,61);
+  --intensity-3: rgb(252,163,17);
+  --intensity-4: rgb(222,229,229);
+  --intensity-5: white;
+}
+
+/* include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* override browser default */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* BUTTONS */
+.button__primary {
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  border-bottom: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border: 1px solid var(--intensity-4);
+  background: var(--intensity-3);
+  color: var(--intensity-5);
+  box-shadow: inset 0px -1rem 0px -11px var(--intensity-1);
+}
+
+.button__primary:hover {
+  background: var(--intensity-5);
+  color: var(--intensity-3);
+  border: 1px solid var(--intensity-4);
+  box-shadow: none;
+}

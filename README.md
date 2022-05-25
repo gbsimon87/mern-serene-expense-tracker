@@ -1,0 +1,1 @@
+Record your own transactions with this simple application :)

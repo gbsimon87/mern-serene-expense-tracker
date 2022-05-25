@@ -1,0 +1,112 @@
+.home {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: var(--intensity-4);
+}
+
+.home--intro {
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  flex-flow: column;
+  /* gap: 2rem; */
+  padding: 3rem 2rem;
+  padding-top: 0;
+  height: calc(100vh - 73px);
+}
+
+.home .home--intro .home--heading {
+  padding: 0;
+  margin: 0;
+  font-size: 2.5rem;
+  color: var(--intensity-2);
+}
+
+.home .home--intro .home--sub-heading {
+  color: var(--intensity-2);
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.home--intro .home--hero-image {
+  width: 100%;
+}
+
+.home--take-control {
+  color: var(--intensity-4);
+  background: var(--intensity-2);
+  padding: 3rem 2rem;
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+}
+
+.home--take-control img {
+  width: 100%;
+}
+
+.home--take-control p {
+  line-height: 2rem;
+}
+
+.home--how-it-works {
+  color: var(--intensity-2);
+  background: var(--intensity-3);
+  padding: 3rem 2rem;
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.home--how-it-works p {
+  line-height: 2rem;
+}
+
+.home .home--options {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem;
+  border-radius: 0.25rem;
+}
+
+/* .home .button__primary {
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  border-bottom: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border: 1px solid var(--intensity-4);
+  background: var(--intensity-3);
+  color: var(--intensity-5);
+  box-shadow: inset 0px -1rem 0px -11px var(--intensity-1);
+} */
+
+/* .home .button__primary:hover {
+  background: var(--intensity-5);
+  color: var(--intensity-3);
+  border: 1px solid var(--intensity-4);
+  box-shadow: none;
+} */
+
+.button__secondary {
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  border: 1px solid var(--intensity-4);
+  border-bottom: none;
+  background: var(--intensity-4);
+  color: var(--intensity-2);
+  box-shadow: inset 0px -1rem 0px -11px var(--intensity-5);
+}
+
+.button__secondary:hover {
+  color: var(--intensity-2);
+  background: var(--intensity-5);
+  box-shadow: inset 0px -1rem 0px -11px var(--intensity-4);
+}
