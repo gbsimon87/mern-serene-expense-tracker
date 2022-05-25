@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./transactions.css"
+import "./transactions.css";
 
 function TransactionList({ transactions }) {
   function renderTransactions() {

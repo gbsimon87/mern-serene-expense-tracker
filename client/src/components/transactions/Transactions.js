@@ -24,6 +24,6 @@ const Transactions = () => {
       <TransactionList transactions={transactions} />
     </div>
   );
-}
+};
 
 export default Transactions;

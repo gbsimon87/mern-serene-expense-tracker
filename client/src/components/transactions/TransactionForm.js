@@ -11,13 +11,10 @@ function TransactionForm({ getTransactions }) {
     try {
       const transactionData = {
         description,
-        amount
+        amount,
       };
-      console.log(transactionData)
-      await axios.post(
-        "http://localhost:5000/transaction/",
-        transactionData
-      );
+      console.log(transactionData);
+      await axios.post("http://localhost:5000/transaction/", transactionData);
       getTransactions();
     } catch (err) {
       console.error(err);
@@ -48,7 +45,9 @@ function TransactionForm({ getTransactions }) {
           />
         </div>
         <div className="form__inputContainer">
-          <button className="change-to-button-primary" type="submit">Add transaction</button>
+          <button className="change-to-button-primary" type="submit">
+            Add transaction
+          </button>
         </div>
       </form>
     </div>

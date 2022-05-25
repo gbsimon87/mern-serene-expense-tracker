@@ -23,10 +23,7 @@ function Register() {
         passwordVerify,
       };
 
-      await axios.post(
-        "http://localhost:5000/auth/",
-        registerData
-      );
+      await axios.post("http://localhost:5000/auth/", registerData);
       await getLoggedIn();
       history.push("/");
     } catch (err) {
@@ -63,7 +60,9 @@ function Register() {
           />
         </div>
         <div className="form__inputContainer">
-          <button className="change-to-button-primary" type="submit">Register</button>
+          <button className="change-to-button-primary" type="submit">
+            Register
+          </button>
         </div>
       </form>
     </div>

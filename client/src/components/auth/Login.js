@@ -21,10 +21,7 @@ function Login() {
         password,
       };
 
-      await axios.post(
-        "http://localhost:5000/auth/login",
-        loginData
-      );
+      await axios.post("http://localhost:5000/auth/login", loginData);
       await getLoggedIn();
       history.push("/");
     } catch (err) {
@@ -55,7 +52,9 @@ function Login() {
           />
         </div>
         <div class="form__inputContainer">
-          <button className="change-to-button-primary" type="submit">Log in</button>
+          <button className="change-to-button-primary" type="submit">
+            Log in
+          </button>
         </div>
       </form>
     </div>

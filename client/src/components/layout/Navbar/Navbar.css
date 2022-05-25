@@ -7,7 +7,7 @@
 }
 
 .header--navbar .header--navbar__left h3 {
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   font-size: 2rem;
   cursor: pointer;
   display: inline-block;
@@ -57,7 +57,9 @@
   padding: 0.5rem;
 }
 
-.header--navbar .header--navbar__right .header--navbar__right-transactions:hover {
+.header--navbar
+  .header--navbar__right
+  .header--navbar__right-transactions:hover {
   background: var(--intensity-4);
 }
 
